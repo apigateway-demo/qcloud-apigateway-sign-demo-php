@@ -2,7 +2,7 @@
 
 
 
-$dateTime = gmdate("I d F Y H:i:s");
+$dateTime = gmdate("D, d M Y H:i:s T");
 $SecretId = 'AKIDgz33go7zufbgrt6azbakwbx7tx0jampv84kz';
 $SecretKey = 'lCIC0ZQhtcI5u36Lojuh2bnOBqaKy6r5FF4Qc1';
 $srcStr = "date: ".$dateTime."\n"."source: "."yousali";
